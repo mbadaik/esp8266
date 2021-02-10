@@ -8,7 +8,7 @@ import machine
 import time
 
 mqtt_client = MQTTClient(client_id='ESP8266_TEMP_SENS', 
-                    server='192.168.29.239')  
+                    server='192.168.0.239')  
                     
                     
 mqtt_client.connect()                   
